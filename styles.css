@@ -1,0 +1,24 @@
+h2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation-name: color-change;
+    animation-delay: 11s;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes color-change {
+    0%{
+        color: black;
+    }
+    5%{
+        color: orange
+    }
+    50%{
+        color:purple;
+    }
+    100%{
+        color: green;
+    }
+}
